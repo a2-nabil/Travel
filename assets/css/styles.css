@@ -41,13 +41,21 @@ ul {
   font-weight: 800;
   color: #131318;
   font-size: 40px;
+  margin-bottom: 24px;
 }
 
 .sectiom_sub-title {
   font-family: "Mulish", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 24px;
-  color: #ff0000;
+  color: #131318;
+}
+
+.sub_title {
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
 }
 
 .section_desc {
@@ -76,6 +84,13 @@ ul {
   color: #ff5400;
   background: transparent;
   border: 1px solid #ff5400;
+}
+
+.head {
+  text-align: center;
+  width: 100%;
+  max-width: 643px;
+  margin: 0 auto 48px;
 }
 
 /* Header Area Start  */
@@ -289,11 +304,62 @@ ul {
   height: auto;
 }
 
-/* Popular Tours Area end  */
+/* Popular Tours Area End  */
+/* Destination Area Start  */
+.destination_area {
+  padding-top: 0;
+}
+.destination_area .area_image_box_container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  place-items: center;
+}
+.destination_area .area_image_box_container .row_1 {
+  grid-column: span 6;
+}
+.destination_area .area_image_box_container .row_2 {
+  grid-column: span 4;
+}
+.destination_area .area_image_box_container .row_3 {
+  grid-column: span 5;
+}
+.destination_area .area_image_box_container .row_4 {
+  grid-column: span 3;
+}
+.destination_area .area_image_box_container .row_5 {
+  grid-column: span 5;
+}
+.destination_area .area_image_box_container .row_6 {
+  grid-column: span 7;
+}
+.destination_area .area_image_box_container .image_box {
+  position: relative;
+}
+.destination_area .area_image_box_container .image_box img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+.destination_area .area_image_box_container .image_box h3.sub_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Destination Area End  */
 /* responsive css all */
 @media (max-width: 767px) {
   .popular_tour_area {
     flex-wrap: wrap;
     flex-direction: column-reverse;
+  }
+  .destination_area .area_image_box_container {
+    grid-template-columns: 1fr;
+  }
+  .destination_area .area_image_box_container .image_box {
+    grid-column: span 12;
   }
 }/*# sourceMappingURL=styles.css.map */

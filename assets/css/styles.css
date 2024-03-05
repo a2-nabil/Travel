@@ -69,6 +69,7 @@ ul {
   border: 1px solid #ff5400 !important;
   cursor: pointer;
   transition: all 0.3s ease;
+  display: inline-block;
 }
 
 .a2n_btn:hover {
@@ -262,4 +263,37 @@ ul {
   padding-right: 8px;
 }
 
-/* Hero Area End  *//*# sourceMappingURL=styles.css.map */
+/* Hero Area End  */
+/* Popular Tours Area Start */
+.popular_tour_area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.popular_tour_area > * {
+  flex-basis: calc(50% - 25px);
+}
+.popular_tour_area .area_contents p.section_desc {
+  margin: 24px 0;
+}
+.popular_tour_area .area_contents ul.inner_items li {
+  margin: 0 0 16px 16px;
+  list-style: disc;
+}
+.popular_tour_area .area_image {
+  text-align: right;
+}
+.popular_tour_area .area_image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Popular Tours Area end  */
+/* responsive css all */
+@media (max-width: 767px) {
+  .popular_tour_area {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}/*# sourceMappingURL=styles.css.map */

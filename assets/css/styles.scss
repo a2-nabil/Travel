@@ -64,6 +64,7 @@ ul {
   border: 1px solid #ff5400 !important;
   cursor: pointer;
   transition: all 0.3s ease;
+  display: inline-block;
 }
 .a2n_btn:hover {
   color: #ff5400;
@@ -265,3 +266,39 @@ ul {
   }
 }
 /* Hero Area End  */
+/* Popular Tours Area Start */
+.popular_tour_area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  > * {
+    flex-basis: calc(50% - 25px);
+  }
+  .area_contents {
+    p.section_desc {
+      margin: 24px 0;
+    }
+    ul.inner_items {
+      li {
+        margin: 0 0 16px 16px;
+        list-style: disc;
+      }
+    }
+  }
+  .area_image {
+    text-align: right;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+/* Popular Tours Area end  */
+/* responsive css all */
+@media (max-width: 767px) {
+  .popular_tour_area {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}

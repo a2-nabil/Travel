@@ -52,6 +52,13 @@ ul {
   font-weight: 800;
   font-size: 28px;
 }
+.item_sub_title {
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  margin: 32px 0 16px;
+  font-size: 24px;
+  color: #131318;
+}
 .section_desc {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
@@ -352,7 +359,7 @@ ul {
 /* Destination Area End  */
 /* Choose Us Area Start  */
 .choose_area {
-  padding: 0px;
+  padding: 0 0 100px;
   .area__container {
     display: flex;
     justify-content: center;
@@ -365,11 +372,6 @@ ul {
       border: 1px solid;
       border-radius: 16px;
       padding: 32px 55px 32px 32px;
-      .sub_title {
-        margin: 32px 0 16px;
-        font-size: 24px;
-        color: #131318;
-      }
     }
     .area_box_1 {
       background: #fffbf7;
@@ -386,6 +388,63 @@ ul {
   }
 }
 /* Choose Us Area End  */
+/* Deals & Discounts Area Start  */
+.deals_area {
+  padding: 55px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .area_container {
+    background: #ffffffcc;
+    padding: 50px 77px 50px 50px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 579px;
+    margin-left: auto;
+    .icon_box_container {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      .icon_box {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+    p.section_desc {
+      color: #5a5a5d;
+    }
+    h3.item_sub_title {
+      margin-top: 24px;
+    }
+    h4.item_sub_title {
+      margin: 16px 0 24px;
+      font-size: 20px;
+      color: #ff5400;
+    }
+  }
+}
+.deals_area_1 {
+  background-image: url(../Images/Group\ 39.png);
+}
+.deals_area_2 {
+  margin: 24px auto;
+  background-image: url(../Images/Group\ 40.png);
+  .area_container {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+.deals_area_3 {
+  background-image: url(../Images/Group\ 39.png);
+}
+.deals_area_btn {
+  text-align: center;
+  padding: 48px 0 0;
+}
+/* Deals & Discounts Area End  */
 
 /* responsive css all */
 @media (max-width: 767px) {

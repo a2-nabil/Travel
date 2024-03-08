@@ -1,176 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel</title>
-    <!-- google fonts here  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font awesome link  -->
-    <script
-      src="https://kit.fontawesome.com/9f0e96b9d8.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- custom css link here  -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-  </head>
-  <body>
-    <!-- Header Area Start  -->
-    <header class="header_area">
-      <nav>
-        <div class="logo">
-          <a href="index.html">
-            <img src="./assets/Images/Group 40071 (2).png" alt="" />Hero
-            <span>Travel</span></a
-          >
-        </div>
-        <input type="checkbox" id="menu-toggle" />
-        <label for="menu-toggle" class="menu-icon">&#9776;</label>
-        <ul class="menu">
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Connect</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Header Area End  -->
-    <!-- Hero Area Start  -->
-    <section class="hero_area section_area">
-      <div class="hero_area-overlay"></div>
-      <div class="hero_content">
-        <h1>Explore Your Travel</h1>
-        <p class="section_desc">
-          Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
-          adipiscing. In et odio enim ac quis sapien urna eu phasellus.
-        </p>
-        <div class="booking-options__container">
-          <form action="#">
-            <input
-              class="booking_field"
-              type="text"
-              name=""
-              id="#location"
-              placeholder="Where go"
-            />
-            <select class="booking_field" name="" id="date">
-              <option value="When">When</option>
-            </select>
-            <select class="booking_field" name="" id="date">
-              <option value="Select Type">Select Type</option>
-            </select>
-            <button class="a2n_btn" type="button"/><i
-              class="fa-solid fa-magnifying-glass"
-            ></i> Find Now
-            </button>
-          </form>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel</title>
+  <!-- google fonts here  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
+  <!-- Font awesome link  -->
+  <script src="https://kit.fontawesome.com/9f0e96b9d8.js" crossorigin="anonymous"></script>
+  <!-- custom css link here  -->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+  <!-- Header Area Start  -->
+  <header class="header_area">
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/Images/Group 40071 (2).png" alt="" />Hero
+          <span>Travel</span></a>
       </div>
-    </section>
-    <!-- Hero Area End  -->
-    <!-- Popular Tours Area Start  -->
-    <section class="popular_tour_area section_area">
-      <div class="area_contents">
-        <h2 class="section_title">
-          Our Popular Tours
-        </h2>
-        <p class="section_desc">
-          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
-        </p>
-        <ul class="inner_items">
-          <li class="section_desc">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-          <li class="section_desc">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-          <li class="section_desc"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
-        </ul>
-        <p class="section_desc">
-          Amet consectetur. Vulputate commodo felis molestie risus 
-ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. 
-        </p>
-        <a href="#" class="a2n_btn">
-          Read More
-        </a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Header Area End  -->
+  <!-- Hero Area Start  -->
+  <section class="hero_area section_area">
+    <div class="hero_area-overlay"></div>
+    <div class="hero_content">
+      <h1>Explore Your Travel</h1>
+      <p class="section_desc">
+        Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+        adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+      </p>
+      <div class="booking-options__container">
+        <form action="#">
+          <input class="booking_field" type="text" name="" id="#location" placeholder="Where go" />
+          <select class="booking_field" name="" id="date">
+            <option value="When">When</option>
+          </select>
+          <select class="booking_field" name="" id="date">
+            <option value="Select Type">Select Type</option>
+          </select>
+          <button class="a2n_btn" type="button" /><i class="fa-solid fa-magnifying-glass"></i> Find Now
+          </button>
+        </form>
       </div>
-      <div class="area_image">
-        <img src="./assets/Images/Rectangle 4.png" alt="">
+    </div>
+  </section>
+  <!-- Hero Area End  -->
+  <!-- Popular Tours Area Start  -->
+  <section class="popular_tour_area section_area">
+    <div class="area_contents">
+      <h2 class="section_title">
+        Our Popular Tours
+      </h2>
+      <p class="section_desc">
+        Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh
+        pellentesque.
+      </p>
+      <ul class="inner_items">
+        <li class="section_desc">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam.
+          Sociis erat at .</li>
+        <li class="section_desc">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus
+          suspendisse nullam.</li>
+        <li class="section_desc"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+      </ul>
+      <p class="section_desc">
+        Amet consectetur. Vulputate commodo felis molestie risus
+        ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque
+        aliquet. Id bibendum nunc senectus semper tincidunt.
+      </p>
+      <a href="#" class="a2n_btn">
+        Read More
+      </a>
+    </div>
+    <div class="area_image">
+      <img src="./assets/Images/Rectangle 4.png" alt="">
+    </div>
+
+  </section>
+  <!-- Popular Tours Area end  -->
+  <!-- Destination Area Start  -->
+  <section class="destination_area section_area">
+    <div class="head">
+      <h2 class="section_title">Choose Your Destination</h2>
+      <p class="section_desc">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
+        dictumst nec nibh pellentesque.</p>
+    </div>
+    <div class="area_image_box_container">
+      <div class="image_box row_1">
+        <img src="./assets/Images/Rectangle 5.png" alt="">
+        <h3 class="sub_title">Maldives</h3>
+      </div>
+      <div class="image_box row_1">
+        <img src="./assets/Images/Rectangle 8.png" alt="">
+        <h3 class="sub_title">Indonesia</h3>
+      </div>
+      <div class="image_box row_2">
+        <img src="./assets/Images/Rectangle 6.png" alt="">
+        <h3 class="sub_title">Srilanka</h3>
+      </div>
+      <div class="image_box row_3">
+        <img src="./assets/Images/Rectangle 7.png" alt="">
+        <h3 class="sub_title">North America</h3>
+      </div>
+      <div class="image_box row_4">
+        <img src="./assets/Images/Rectangle 9.png" alt="">
+        <h3 class="sub_title">Kashmir</h3>
+      </div>
+      <div class="image_box row_5">
+        <img src="./assets/Images/Rectangle 11.png" alt="">
+        <h3 class="sub_title">Bangladesh</h3>
+      </div>
+      <div class="image_box row_6">
+        <img src="./assets/Images/Rectangle 10.png" alt="">
+        <h3 class="sub_title">Bandarban</h3>
+      </div>
+    </div>
+  </section>
+  <!-- Destination Area End  -->
+  <!-- Choose Us Area Start  -->
+  <section class="choose_area section_area">
+    <div class="head">
+      <h2 class="section_title">Why Choose Us</h2>
+      <p class="section_desc">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
+        dictumst nec nibh pellentesque.</p>
+    </div>
+    <div class="area__container">
+      <div class="area_box area_box_1">
+        <img src="./assets/Images/hotel 1.svg" alt="">
+        <h3 class="item_sub_title">Kashmir</h3>
+        <p class="section_desc">
+          Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis
+          dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+        </p>
+      </div>
+      <div class="area_box area_box_2">
+        <img src="./assets/Images/Group 27.svg" alt="">
+        <h3 class="item_sub_title">Kashmir</h3>
+        <p class="section_desc">
+          Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis
+          dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+        </p>
+      </div>
+      <div class="area_box area_box_3">
+        <img src="./assets/Images/Group 26.svg" alt="">
+        <h3 class="item_sub_title">Kashmir</h3>
+        <p class="section_desc">
+          Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis
+          dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+        </p>
       </div>
 
-    </section>
-    <!-- Popular Tours Area end  -->
-    <!-- Destination Area Start  -->
-    <section class="destination_area section_area">
-      <div class="head">
-        <h2 class="section_title">Choose Your Destination</h2>
-        <p class="section_desc">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-      </div>
-      <div class="area_image_box_container">
-          <div class="image_box row_1">
-            <img src="./assets/Images/Rectangle 5.png" alt="">
-            <h3 class="sub_title">Maldives</h3>
-          </div>
-          <div class="image_box row_1">
-            <img src="./assets/Images/Rectangle 8.png" alt="">
-            <h3 class="sub_title">Indonesia</h3>
-          </div>
-          <div class="image_box row_2">
-            <img src="./assets/Images/Rectangle 6.png" alt="">
-            <h3 class="sub_title">Srilanka</h3>
-          </div>
-          <div class="image_box row_3">
-            <img src="./assets/Images/Rectangle 7.png" alt="">
-            <h3 class="sub_title">North America</h3>
-          </div>
-          <div class="image_box row_4">
-            <img src="./assets/Images/Rectangle 9.png" alt="">
-            <h3 class="sub_title">Kashmir</h3>
-          </div>
-          <div class="image_box row_5">
-            <img src="./assets/Images/Rectangle 11.png" alt="">
-            <h3 class="sub_title">Bangladesh</h3>
-          </div>
-          <div class="image_box row_6">
-            <img src="./assets/Images/Rectangle 10.png" alt="">
-            <h3 class="sub_title">Bandarban</h3>
-          </div>
-      </div>
-    </section>
-    <!-- Destination Area End  -->
-    <!-- Choose Us Area Start  -->
-    <section class="choose_area section_area">
-      <div class="head">
-        <h2 class="section_title">Why Choose Us</h2>
-        <p class="section_desc">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-      </div>
-      <div class="area__container">
-        <div class="area_box area_box_1">
-          <img src="./assets/Images/hotel 1.svg" alt="">
-          <h3 class="sub_title">Kashmir</h3>
-          <p class="section_desc">
-            Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
-          </p>
+    </div>
+  </section>
+  <!-- Choose Us Area end  -->
+  <!-- Deals & Discounts Area Start  -->
+  <section class="deals_area section_area deals_area_1">
+    <div class="area_container">
+      <div class="icon_box_container">
+        <div class="icon_box">
+          <img src="./assets/Images/Frame.svg" alt="">
+          <p class="section_desc">7 Day / 6 Night</p>
         </div>
-        <div class="area_box area_box_2">
-          <img src="./assets/Images/Group 27.svg" alt="">
-          <h3 class="sub_title">Kashmir</h3>
-          <p class="section_desc">
-            Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
-          </p>
+        <div class="icon_box">
+          <img src="./assets/Images/Frame (1).svg" alt="">
+          <p class="section_desc">Max : 10</p>
         </div>
-        <div class="area_box area_box_3">
-          <img src="./assets/Images/Group 26.svg" alt="">
-          <h3 class="sub_title">Kashmir</h3>
-          <p class="section_desc">
-            Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
-          </p>
+        <div class="icon_box">
+          <img src="./assets/Images/Frame (2).svg" alt="">
+          <p class="section_desc">Malaysia</p>
         </div>
-        
       </div>
-    </section>
-    <!-- Choose Us Area end  -->
-    
-  </body>
+      <h3 class="item_sub_title">
+        Tour To Satorini
+      </h3>
+      <p class="section_desc">
+        Amet consectetur. Vulputate commodo felis
+        molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.
+      </p>
+      <h4 class="item_sub_title">Price: $1300-$1500</h4>
+      <a href="" class="a2n_btn">Book Now</a>
+    </div>
+  </section>
+  <section class="deals_area section_area deals_area_2">
+    <div class="area_container">
+      <div class="icon_box_container">
+        <div class="icon_box">
+          <img src="./assets/Images/Frame.svg" alt="">
+          <p class="section_desc">7 Day / 6 Night</p>
+        </div>
+        <div class="icon_box">
+          <img src="./assets/Images/Frame (1).svg" alt="">
+          <p class="section_desc">Max : 10</p>
+        </div>
+        <div class="icon_box">
+          <img src="./assets/Images/Frame (2).svg" alt="">
+          <p class="section_desc">Malaysia</p>
+        </div>
+      </div>
+      <h3 class="item_sub_title">
+        Tour To Satorini
+      </h3>
+      <p class="section_desc">
+        Amet consectetur. Vulputate commodo felis
+        molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.
+      </p>
+      <h4 class="item_sub_title">Price: $1300-$1500</h4>
+      <a href="" class="a2n_btn">Book Now</a>
+    </div>
+  </section>
+  <section class="deals_area section_area deals_area_3">
+    <div class="area_container">
+      <div class="icon_box_container">
+        <div class="icon_box">
+          <img src="./assets/Images/Frame.svg" alt="">
+          <p class="section_desc">7 Day / 6 Night</p>
+        </div>
+        <div class="icon_box">
+          <img src="./assets/Images/Frame (1).svg" alt="">
+          <p class="section_desc">Max : 10</p>
+        </div>
+        <div class="icon_box">
+          <img src="./assets/Images/Frame (2).svg" alt="">
+          <p class="section_desc">Malaysia</p>
+        </div>
+      </div>
+      <h3 class="item_sub_title">
+        Tour To Satorini
+      </h3>
+      <p class="section_desc">
+        Amet consectetur. Vulputate commodo felis
+        molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.
+      </p>
+      <h4 class="item_sub_title">Price: $1300-$1500</h4>
+      <a href="" class="a2n_btn">Book Now</a>
+    </div>
+  </section>
+  <div class="section_area deals_area_btn">
+    <a href="#" class="a2n_btn">See All Packages</a>
+  </div>
+
+  <!-- Deals & Discounts Area End  -->
+
+</body>
+
 </html>

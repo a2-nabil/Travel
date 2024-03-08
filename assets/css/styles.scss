@@ -442,9 +442,28 @@ ul {
 }
 .deals_area_btn {
   text-align: center;
-  padding: 48px 0 0;
+  padding: 48px 0 0 !important;
 }
 /* Deals & Discounts Area End  */
+/* iframe Area Start  */
+.iframe_area {
+  gap: 28px;
+  > * {
+    flex-basis: calc(50% - 14px);
+  }
+  .area_iframe {
+    width: 100%;
+    height: auto;
+
+    iframe {
+      border-radius: 16px;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 16/9;
+    }
+  }
+}
+/* iframe Area End  */
 
 /* responsive css all */
 @media (max-width: 767px) {
@@ -462,6 +481,11 @@ ul {
       .image_box {
         grid-column: span 12;
       }
+    }
+  }
+  .deals_area {
+    .area_container {
+      padding: 20px 10px;
     }
   }
 }
